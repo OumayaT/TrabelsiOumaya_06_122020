@@ -1,5 +1,7 @@
 SO PEKOCKO
+
 Présentation et instructions
+
 Présentation
 Le site SO PEKOCKO est un site d'avis culinaires où les utilisateurs peuvent partager des fiches concernant des sauces selon un modèle précis, incluant la possibilité de "liker" ou "disliker" les sauces.
 
@@ -29,6 +31,7 @@ Avec un terminal, aller dans le dossier backend, puis:
         -taper: "npm install",
         -puis: "nodemon server",
         -le serveur écoute sur le port: http://localhost:3000
+        
 Arrivé à ce point, vous pouvez utiliser les fonctionnalités du site.
 
 ps: le travail présenté ici a été réalisé pour la partie backend. Pour la partie frontend, l'adresse du code original est la suivante:
