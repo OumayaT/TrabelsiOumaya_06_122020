@@ -24,10 +24,14 @@ Avec un terminal, aller dans le dossier "frontend" puis:
 Partie backend
 Avec un terminal, aller dans le dossier backend, puis:
 
-    - créer un fichier ".env" et y implémenter les lignes de code qui vous ont été envoyées séparément,
-    - penser à bien enregistrer,
+Avant d'accéder à l'application, vous devrez créer un fichier .env dans le répertoire racine ( backend).
+Dans ce nouveau fichier, ajoutez des variables spécifiques à l'environnement sur les nouvelles lignes sous la forme NAME=VALUE, comme ci-dessous :
 
-    - puis, toujours dans le terminal ouvert dans le dossier backend:    
+    DB_URI='your MongoDB id'
+    SEC_SES ='La liste des clés à utiliser pour signer et vérifier les valeurs des cookies ou une chaîne qui sera utilisée comme clé unique si elle keys n'est pas fournie'
+    TOKEN_SECRET = clé secrète de chiffrement 
+
+ puis, toujours dans le terminal ouvert dans le dossier backend:    
         -taper: "npm install",
         -puis: "nodemon server",
         -le serveur écoute sur le port: http://localhost:3000
